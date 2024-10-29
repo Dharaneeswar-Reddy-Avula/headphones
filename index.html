@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOCUMENT</title>
+    <script>
+        tailwind.config = {
+            mode: 'jit',
+            theme: {
+                extend: {},
+            },
+            variants: {},
+            plugins: [],
+        }
+    </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+     <style>
+        @media(min-width:768px) and (max-width:1024px){
+            .image{
+                margin: auto;
+            }
+        }
+     </style>
+</head>
+<body>
+  
+    <div class="top lg:h-[220px] lg:w-[90vw] bg-[pink] rounded-lg flex flex-wrap m-[20px] md:m-[50px] lg:justify-between">
+        <div class="content h-[200px] w-[500px] p-[40px]">
+            <h3 class=" text-[25px] sm:text-[37px] font-semibold leading-none pb-[20px]">Grab upto 50% Off On Selected Head Phone</h3>
+            <button class="buynow h-[40px] w-[100px] bg-[darkgreen] text-[white] font-semibold rounded-full">Buy now</button>
+        </div>
+        <div class="image md:w-[250px] lg:mx-[50px]">
+            <img src="topimg.png" class="h-[220px]">
+        </div>
+    </div>
+
+   <div class="menu w-full flex gap-3 px-[20px] sm:px-[40px] flex flex-wrap">
+        <div class="headphone-type flex bg-[#ccc] px-[10px] justify-center items-center rounded-full py-[3px]"><p>Headphone type</p><span class="px-[10px] py-[2px]"><i class="fas fa-angle-down text-[12px]"></i>
+        </span></div>
+        <div class="headphone-type flex bg-[#ccc] justify-center items-center rounded-full px-[15px] py-[3px]"><p>Price</p><span class="pl-[8px] py-[2px]"><i class="fas fa-angle-down text-[12px]"></i>
+        </span></div>
+        <div class="headphone-type flex bg-[#ccc]  justify-center items-center rounded-full py-[3px] px-[15px]"><p>Review</p><span class="pl-[10px] py-[2px]"><i class="fas fa-angle-down text-[12px]"></i>
+        </span></div>
+        <div class="headphone-type flex bg-[#ccc]  justify-center items-center rounded-full py-[3px] px-[12px]"><p>Color</p><span class="pl-[8px]  py-[2px]"><i class="fas fa-angle-down text-[12px]"></i>
+        </span></div>
+        <div class="headphone-type flex bg-[#ccc]  justify-center items-center rounded-full py-[3px] px-[15px]"><p>Material</p><span class="pl-[10px] py-[2px]"><i class="fas fa-angle-down text-[12px]"></i>
+        </span></div>
+        <div class="headphone-type flex bg-[#ccc]  justify-center items-center rounded-full py-[3px] px-[15px]"><p>All Filters</p><span class="pl-[10px] py-[2px]"><i class="fas fa-angle-down text-[12px]"></i>
+        </span></div>
+   </div>
+
+   <div class="headphones">
+    <h1 class="text-[24px] font-bold p-[20px] md:p-[50px]">Headphones for You!</h1>
+    <div class="cards  h-[450px] w-full flex justify-around flex-wrap gap-5">
+        <div class="card h-[400px] w-[280px] border-[2px] rounded-lg ">
+            <div class="image bg-[#ccc] w-full h-[230px] relative">
+                <div class="wishlist h-[30px] w-[30px] rounded-full flex justify-center items-center bg-[white] absolute right-2 my-[10px]">
+                    <i class="fa-regular fa-heart text-[#787878]"></i>
+                    
+                </div>
+                <img src="headphone-1.jpeg" class="w-full h-full">
+            </div>
+            <div class="content h-[120px] w-full ">
+                <div class="name flex justify-between text-[18px] font-bold py-[10px] px-[3px]"><h5>Wireless Earbuds,IPX8</h5><span class="cost"><sup>$</sup>89<sup>00</sup></span></div>
+                <p class="text-[#ccc] pl-[5px]">organic cotton earbuds certified</p>
+                <div class="rating text pl-[5px]">
+                    <i class="fa-solid fa-star text-[green]"></i>
+                    <i class="fa-solid fa-star text-[green]"></i>
+                    <i class="fa-solid fa-star text-[green]"></i>
+                    <i class="fa-solid fa-star text-[green]"></i>
+                    <i class="fa-solid fa-star text-[green]"></i>
+                    <span class="text-[#ccc]">(121)</span>
+                </div>
+                <button class="add-cart h-[40px] w-[150px] border-[2px] rounded-full p-[5px] my-[10px] mx-[5px]">Add Cart</button>
+            </div>
+           
+        </div>
+        <div class="card h-[400px] w-[280px] border-[2px] rounded-lg ">
+            <div class="image bg-[#ccc] w-full h-[230px] relative">
+                <div class="wishlist h-[30px] w-[30px] rounded-full flex justify-center items-center bg-[white] absolute right-2 my-[10px]">
+                    <i class="fa-regular fa-heart text-[#787878]"></i>
+                </div>
+                <img src="headphone-2.jpeg" class="w-full h-full">
+            </div>
+            <div class="content h-[120px] w-full ">
+                <div class="name flex justify-between text-[18px] font-bold py-[10px] px-[3px]"><h5>Wireless Earbuds,IPX8</h5><span class="cost"><sup>$</sup>89<sup>00</sup></span></div>
+                <p class="text-[#ccc] pl-[5px]">organic cotton earbuds certified</p>
+                <div class="rating text pl-[5px]">
+                    <i class="fa-solid fa-star text-[green]"></i>
+                    <i class="fa-solid fa-star text-[green]"></i>
+                    <i class="fa-solid fa-star text-[green]"></i>
+                    <i class="fa-solid fa-star text-[green]"></i>
+                    <i class="fa-solid fa-star text-[green]"></i>
+                    <span class="text-[#ccc]">(121)</span>
+                </div>
+                <button class="add-cart h-[40px] w-[150px] border-[2px] rounded-full p-[5px] mx-[5px] my-[10px]">Add Cart</button>
+            </div>
+           
+        </div>
+        <div class="card h-[400px] w-[280px] border-[2px] rounded-lg ">
+            <div class="image bg-[#ccc] w-full h-[230px] relative">
+                <div class="wishlist h-[30px] w-[30px] rounded-full flex justify-center items-center bg-[white] absolute right-2 my-[10px]">
+                    <i class="fa-regular fa-heart text-[#787878]"></i>
+                </div>
+                <img src="headphone-3.jpeg" class="w-full h-full">
+            </div>
+            <div class="content h-[120px] w-full ">
+                <div class="name flex justify-between text-[18px] font-bold py-[10px] px-[3px]"><h5>Wireless Earbuds,IPX8</h5><span class="cost"><sup>$</sup>89<sup>00</sup></span></div>
+                <p class="text-[#ccc] pl-[5px]">organic cotton earbuds certified</p>
+                <div class="rating text pl-[5px]">
+                    <i class="fa-solid fa-star text-[green]"></i>
+                    <i class="fa-solid fa-star text-[green]"></i>
+                    <i class="fa-solid fa-star text-[green]"></i>
+                    <i class="fa-solid fa-star text-[green]"></i>
+                    <i class="fa-solid fa-star text-[green]"></i>
+                    <span class="text-[#ccc]">(121)</span>
+                </div>
+                <button class="add-cart h-[40px] w-[150px] border-[2px] rounded-full p-[5px] mx-[5px] my-[10px]">Add Cart</button>
+            </div>
+           
+        </div>
+        <div class="card h-[400px] w-[280px] border-[2px] rounded-lg ">
+            <div class="image bg-[#ccc] w-full h-[230px] relative">
+                <div class="wishlist h-[30px] w-[30px] rounded-full flex justify-center items-center bg-[white] absolute right-2 my-[10px]">
+                    <i class="fa-regular fa-heart text-[#787878]"></i>
+                </div>
+                <img src="headphone-4.jpeg" class="w-full h-full">
+            </div>
+            <div class="content h-[120px] w-full ">
+                <div class="name flex justify-between text-[18px] font-bold py-[10px] px-[3px]"><h5>Wireless Earbuds,IPX8</h5><span class="cost"><sup>$</sup>89<sup>00</sup></span></div>
+                <p class="text-[#ccc] pl-[5px]">organic cotton earbuds certified</p>
+                <div class="rating text pl-[5px]">
+                    <i class="fa-solid fa-star text-[green]"></i>
+                    <i class="fa-solid fa-star text-[green]"></i>
+                    <i class="fa-solid fa-star text-[green]"></i>
+                    <i class="fa-solid fa-star text-[green]"></i>
+                    <i class="fa-solid fa-star text-[green]"></i>
+                    <span class="text-[#ccc]">(121)</span>
+                </div>
+                <button class="add-cart h-[40px] w-[150px] border-[2px] rounded-full p-[5px] mx-[5px] my-[10px]">Add Cart</button>
+            </div>
+           
+        </div>
+    </div>
+   </div>
+</body>
+</html> 
